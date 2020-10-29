@@ -4,30 +4,23 @@ import './App.css';
 function App() {
   return (
     <div>
-<div className="responsive"> 
-<div className="gallery">
-<img src={logo} alt="Cinque Terre" width="600" height="400"/>
-</div>
+      <div className="background">
+<form>
+  <label>First name</label><br/>
+  <input type="text" name="name" value="name"></input><br/>
 
-</div>
+  <label>Last name</label><br/>
+  <input type="text" name="name" value="name"></input><br/>
 
-<div className="responsive"> 
-<div className="gallery">
-<img src={logo} alt="Cinque Terre" width="600" height="400"/>
-</div>
+  <label for="country">Country</label><br/>
+  <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select><br/>
 
-</div>
-<div className="responsive"> 
-<div className="gallery">
-<img src={logo} alt="Cinque Terre" width="600" height="400"/>
-</div>
-
-</div>
-<div className="responsive"> 
-<div className="gallery">
-<img src={logo} alt="Cinque Terre" width="600" height="400"/>
-</div>
-
+    <input type="submit" value="Submit"/>
+</form>
 </div>
     </div>
   );
