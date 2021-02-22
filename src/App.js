@@ -27,6 +27,9 @@ function App() {
 <div className="gallery">
 <img src={logo} alt="Cinque Terre" width="600" height="400"/>
 </div>
+<div>
+  <h1>Chris learnt CI/CD today</h1>
+</div>
 
 </div>
     </div>
